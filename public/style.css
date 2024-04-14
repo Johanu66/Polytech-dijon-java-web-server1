@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: rgb(223, 216, 216);
+    margin: 0;
+}
+header{
+    background-color: rgb(236, 236, 228);
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+    margin: 0px;
+}
+header > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+header img{
+    width: 150px;
+}
+.nav_links{
+    padding-inline: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#presentation p{
+    text-align: justify;
+}
+h1, strong{
+    color: dodgerblue;
+}
+video{
+    width: 50%;
+    min-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+
+#actus{
+    display: flex;
+    justify-content: space-around;
+}
+#actus > div{
+    margin-inline: 30px;
+}
+#actus img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#actus h3{
+    text-align: center;
+}
+#actus p{
+    text-align: justify;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
